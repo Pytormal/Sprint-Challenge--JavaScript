@@ -1,4 +1,4 @@
-// ==== ADVANCED Array Methods ====
+ // ==== ADVANCED Array Methods ====
 
 // Given this zoo data from around the United States, follow the instructions below.  Use the specific array methods in the requests below to solve the problems.
  
@@ -20,13 +20,14 @@ const zooAnimals = [
 The zoos want to display both the scientific name and the animal name in front of the habitats. Populate the displayNames array with only the animal_name and scientific_name of each animal. displayNames will be an array of strings, and each string should follow this pattern: "Name: Jackal, asiatic, Scientific: Canis aureus."
 
 */
-const displayNames = [];
-displayNames.forEach(newArray, index, arr)
 
-function newArray (name, index) {
-  += index + ":" + item
-}
-console.log(displayNames);
+const displayNames = [];
+zooAnimals.forEach(function (item, index, array) {
+  // console.log(element);
+  // console.log(index);
+  console.log(index, item);
+
+})
 
 /* Request 2: .map()
 
