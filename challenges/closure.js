@@ -18,6 +18,7 @@ myFunction();
 
 // Explanation: 
 
+//nestedFunction can access the variable internal becuase of scope, the nested function searching the function it's in or it's loacl scope, the external function is scoping to global
 
 /* Task 2: Counter */
 
